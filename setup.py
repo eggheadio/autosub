@@ -19,9 +19,9 @@ setup(
     scripts=['bin/autosub'],
     install_requires=[
         'google-api-python-client>=1.4.2',
-        'requests>=2.3.0',
+        'requests>=2.14.2',
         'pysrt>=1.0.1',
-        'progressbar>=2.3'
+        'progressbar2>=3.20.0'
     ],
     license=open("LICENSE").read()
 )
